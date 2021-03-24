@@ -1,0 +1,35 @@
+.body {
+  background-color: red;
+}
+
+#gallery {
+  list-style: none;
+  color: red;
+  display: flex;
+  margin-left: 60px;
+
+}
+
+.photo-item {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  height: 100%;
+
+  /* border: 3px solid red; */
+}
+
+/* .img-item {
+  /* border: 3px solid green; */
+} */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
